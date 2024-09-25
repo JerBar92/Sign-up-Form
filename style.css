@@ -90,6 +90,19 @@ label {
   font-size: 0.7rem;
 }
 
+input {
+  border: 1px solid #e5e7eb;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input:focus {
+  border: 1px solid rgb(53, 53, 236);
+  box-shadow: 2px 1px 3px 1px rgb(44, 44, 228);
+}
+
 .line1,
 .line2,
 .line3 {
