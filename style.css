@@ -1,0 +1,39 @@
+@font-face {
+  font-family: NorseBold;
+  src: url(Norse-Bold.otf) format("opentype");
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+.image {
+  width: 40%;
+  background-image: url(img/earth-11009_1280.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.logo {
+  margin-top: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 10%;
+}
+.logo img {
+  height: 5rem;
+  width: 4rem;
+}
+
+h1 {
+  color: white;
+  font-size: 4rem;
+  font-family: "NorseBold";
+}
