@@ -5,6 +5,7 @@
 
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -13,7 +14,7 @@ body {
 }
 
 .image {
-  width: 40%;
+  width: 60%;
   background-image: url(img/earth-11009_1280.jpg);
   background-size: cover;
   min-height: 100vh;
@@ -25,15 +26,85 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
-  height: 10%;
+  height: 20%;
 }
 .logo img {
-  height: 5rem;
-  width: 4rem;
+  height: 8rem;
+  width: 7rem;
 }
 
 h1 {
   color: white;
-  font-size: 4rem;
+  font-size: 8rem;
   font-family: "NorseBold";
+}
+
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+.text {
+  width: 100%;
+}
+.presentation,
+.form,
+.validation {
+  padding-left: 3rem;
+}
+
+.presentation,
+.validation {
+  background-color: rgb(233, 233, 233);
+}
+.presentation {
+  padding-top: 10%;
+}
+.presentation p {
+  width: 70%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.validation {
+  padding-top: 2rem;
+  height: 100%;
+}
+
+.form {
+  padding-top: 1rem;
+}
+form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+label {
+  display: block;
+  font-size: 0.7rem;
+}
+
+.line1,
+.line2,
+.line3 {
+  display: flex;
+  gap: 3rem;
+}
+
+button {
+  background-color: rgb(44, 44, 228);
+  color: white;
+  width: 200px;
+  padding: 8px 0;
+  border-radius: 8px;
+}
+
+.validation p {
+  margin-top: 2rem;
 }
